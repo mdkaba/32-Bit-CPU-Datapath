@@ -1,0 +1,73 @@
+add wave *
+
+force x 00000000001101101100100111010100
+
+force y 00000000011011011000111000101011
+
+force add_sub 0
+
+force logic_func 01
+
+force func 01
+
+run 2
+
+force x 10001101010001110000000011000100
+
+force y 10000000000000000000110000111000
+
+force add_sub 0
+
+force logic_func 01
+
+force func 01
+
+run 2
+
+force x 11111111111111111111111111111111
+
+force y 00000000000000000000000000000001
+
+force add_sub 0
+
+force logic_func 01
+
+force func 01
+
+run 2
+
+force x 00000000000000000000000000000000
+
+force y 00000000000000000000000000000001
+
+force add_sub 1
+
+force logic_func 10
+
+force func 11
+
+run 2
+
+force x 00000000000000000000000000000100
+
+force y 00000000000000000000000000000010
+
+force add_sub 0
+
+force logic_func 11
+
+force func 01
+
+run 2
+
+force x 11111111111111111111111111111111
+
+force y 11111111111111111111111111111111
+
+force add_sub 1
+
+force logic_func 11
+
+force func 00
+
+run 2
