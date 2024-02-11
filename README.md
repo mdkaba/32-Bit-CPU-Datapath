@@ -1,2 +1,2 @@
-# 32-Bit-CPU-Datapath
+# 32-Bit CPU Datapath
 Computer Architecture &amp; Design
